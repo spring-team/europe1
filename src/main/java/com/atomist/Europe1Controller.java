@@ -28,7 +28,7 @@ class Europe1Controller {
     @RequestMapping(method = GET, path = "/")
     public String root() {
         return "Spring Boot REST service running - Atomist internal: Served by " + getClass().getName();
-    }headed
+    }
 
     @RequestMapping(method = GET, path = "hello/{name}")
     public String person(@PathVariable String name) {
